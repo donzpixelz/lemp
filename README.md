@@ -8,6 +8,8 @@ ks.cfg located in the .packer/http folder lemp.json located in the .packer folde
 
 You may also choose to update the ip in the Vagrantfile.
 
+You will also need packer and vagrant installed on your host machine along with the following vagrant plugins:
+
     vagrant-auto_network    # vagrant plugin install vagrant-auto_network
     vagrant-digitalocean    # vagrant plugin install vagrant-digitalocean
     
